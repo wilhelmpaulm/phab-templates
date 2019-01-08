@@ -33,3 +33,27 @@
 
 - what would happen if you finish applying your changes?
 - this could actually serve as basis for your test cases
+
+## rollout plan
+- update the API
+- update the frontend to hide restricted links
+- run a visual test
+- update the DB and migrate the details to the new column
+- clear the application config and cache
+- run a complete cycle of the system
+- run migration tests
+- document new bugs related to the rollout
+- create a retrospective for the rollout
+
+## rollback plan
+- revert updates the API
+- revert frontend restrictions
+- run a visual test
+- re-create the deleted db column
+- create duplicates of the old data to the recreated column
+- validate the changes
+- clear the application config and cache
+- run a complete cycle of the system
+- run migration tests
+- document new bugs related to the rollback
+- create a retrospective for the rollback
