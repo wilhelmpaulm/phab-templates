@@ -13,6 +13,11 @@
 - where do we plan to implement this?
 - when do we plan to roll these changes out?
 
+## requirements
+
+- what are the copy, assets, services you need or have to request?
+- is there anything preventing you from proceeding with with this ticket? 
+
 ## links, references, related
 
 - in a clear format, list down all the details you think could help the viewer better understand your ticket
@@ -35,6 +40,7 @@
 - this could actually serve as basis for your test cases
 
 ## rollout plan
+
 - update the API
 - update the frontend to hide restricted links
 - run a visual test
@@ -46,6 +52,7 @@
 - create a retrospective for the rollout
 
 ## rollback plan
+
 - revert updates the API
 - revert frontend restrictions
 - run a visual test
